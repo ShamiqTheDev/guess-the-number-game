@@ -68,14 +68,11 @@ echo "<pre>";
 print_r($_SESSION);
 echo "</pre>";
 
+
+include "header.php";
 ?>
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Number Guessing Game</title>
-</head>
-<body>
+
     <h1>Number Guessing Game</h1>
     <p><?php echo $result; ?></p>
 
@@ -89,5 +86,4 @@ echo "</pre>";
         <?php } ?>
     </form>
 
-</body>
-</html>
+<?php include "footer.php"; ?>
